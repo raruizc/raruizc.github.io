@@ -1,0 +1,61 @@
+---
+title: "Ricardo Antonio Ruiz-Cardozo"
+subtitle: "Statistician · Plant breeding · Data scientist"
+pagetitle: "Ricardo Ruiz-Cardozo"
+page-layout: full
+body-classes: home
+image: images/Foto.jpeg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/raruizc
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ricardo-ruiz-cardozo/
+    - text: ORCID
+      href: https://orcid.org/0009-0003-9162-8396
+    - icon: envelope
+      text: Email
+      href: mailto:raruizc@usp.br
+---
+
+**I turn field-trial and genomic data into better selection decisions.**
+
+I am a PhD candidate in Statistics and Agricultural Experimentation at ESALQ/USP (Brazil). I work where agriculture, statistics and artificial intelligence meet: mixed models, Bayesian hierarchical models, information theory and machine learning applied to plant breeding and agricultural data.
+
+::: {.highlights}
+::: {.highlight}
+[1st place]{.big}
+[GDM Universities Challenge (best ESALQ project) with MIBLUP]{.small}
+:::
+::: {.highlight}
+[2 papers]{.big}
+[Published in 2025 on wheat adaptability and field-trial design]{.small}
+:::
+::: {.highlight}
+[PhD · MSc · MBA]{.big}
+[Statistics (ESALQ/USP), Plant Breeding (UFLA), Data Science (USP)]{.small}
+:::
+::: {.highlight}
+[ES · PT · EN]{.big}
+[Spanish, Portuguese and English]{.small}
+:::
+:::
+
+[[]{.bi .bi-grid-3x3-gap} See my projects](projects/index.qmd){.btn-pill .solid} [[]{.bi .bi-journal-text} Research](research.qmd){.btn-pill} [[]{.bi .bi-person} About me](about.qmd){.btn-pill}
+
+### Deep dives
+
+Theory, equations and the real code behind my projects:
+
+::: {.deep-dives}
+[[]{.bi .bi-diagram-3} **MIBLUP** [Mutual information inside the mixed model]{.dd-sub} [Explore →]{.dd-go}](projects/miblup/index.qmd){.dd}
+[[]{.bi .bi-globe-europe-africa} **Nordic barley G×E** [Factor-analytic models, information and entropy]{.dd-sub} [Explore →]{.dd-go}](projects/nordic-barley/index.qmd){.dd}
+[[]{.bi .bi-graph-up-arrow} **Tahiti lemon prices** [SARIMA forecasting with interactive plots]{.dd-sub} [Explore →]{.dd-go}](projects/tahiti-lemon/index.qmd){.dd}
+[[]{.bi .bi-camera} **Tomato disease CNN** [Deep learning on leaf photos, layer by layer]{.dd-sub} [Explore →]{.dd-go}](projects/tomato-disease/index.qmd){.dd}
+[[]{.bi .bi-map} **AgriRaster** [Vegetation indices, kriging and clustering]{.dd-sub} [Explore →]{.dd-go}](projects/agriraster/index.qmd){.dd}
+:::

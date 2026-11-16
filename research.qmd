@@ -1,0 +1,34 @@
+---
+title: "Research"
+---
+
+My research develops statistical and information-theoretic tools for plant breeding: how to choose better genotypes from noisy multi-environment trials and genomic data, and how to make those choices interpretable for breeders.
+
+Full and up-to-date list: [ORCID 0009-0003-9162-8396](https://orcid.org/0009-0003-9162-8396)
+<!-- TODO: add Google Scholar / ResearchGate links if you have them -->
+
+## Journal articles
+
+<!-- TODO: add the full author list of each article -->
+
+**Adaptability and stability of wheat cultivars under rainfed in the southern region of Minas Gerais state**\
+*Scientia Agricola*, 2025.\
+[[]{.bi .bi-box-arrow-up-right} DOI: 10.1590/1678-992x-2024-0210](https://doi.org/10.1590/1678-992x-2024-0210){.btn-pill}
+
+**Border effect on the agronomic evaluation of wheat cultivars**\
+*Crop Breeding and Applied Biotechnology*, 2025.\
+[[]{.bi .bi-box-arrow-up-right} DOI: 10.1590/1984-70332025v25n4a60](https://doi.org/10.1590/1984-70332025v25n4a60){.btn-pill}
+
+## Dissertation
+
+**Adaptability and stability of wheat cultivars in mesoregions of the Campo das Vertentes and south/southwest of Minas Gerais state**\
+MSc dissertation, Universidade Federal de Lavras (UFLA), 2024.\
+[[]{.bi .bi-bank} Repository UFLA](http://repositorio.ufla.br/jspui/handle/1/59063){.btn-pill} [[]{.bi .bi-github} Code on GitHub](https://github.com/raruizc/Adaptability_Stability_Wheat){.btn-pill}
+
+## Work in progress
+
+**Beyond linear G×E: factor-analytic models, mutual information and entropy in Nordic barley METs.** A manuscript with a fully reproducible analysis package. [Read the project summary](projects/nordic-barley/index.qmd).
+
+## Awards
+
+**1st place, best ESALQ/USP project, GDM Universities Challenge** for [MIBLUP](projects/miblup/index.qmd), a mutual-information-weighted genomic selection method.

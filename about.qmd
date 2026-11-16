@@ -1,0 +1,49 @@
+---
+title: "About me"
+---
+
+I am an Agricultural Engineer from Colombia, with an MBA in Data Science and Analytics (USP), a Master's degree in Genetics and Plant Breeding (UFLA) and currently a PhD student in **Statistics and Agricultural Experimentation** at ESALQ/USP, with a CAPES scholarship.
+
+My research sits where agriculture, statistics and artificial intelligence meet. In my PhD I am using **Genetic Programming** to build new agricultural indices from experimental data. I also develop methods that use **information theory** (mutual information and Shannon entropy) to make genomic selection and genotype-by-environment (G×E) analysis more interpretable.
+
+I have supported a wheat breeding program in subtropical conditions, analysed time series of agricultural crop prices, worked on G×E interaction and experimental analysis, and collaborated on research projects on rose growth. I am also a biostatistics teaching assistant.
+
+## What I do
+
+| Area | Methods and tools |
+|---|---|
+| **Quantitative genetics** | Genomic selection (GBLUP), G×E, multi-environment trials, factor-analytic models, adaptability and stability (GGE, MTSI) |
+| **Statistical modelling** | Linear mixed models (ASReml, lme4), Bayesian hierarchical models (Stan), spatial field-trial analysis, experimental design |
+| **Information theory** | Mutual information and Shannon entropy for marker selection, G×E networks and stability |
+| **Time series and spatial** | ARIMA/SARIMA, Prophet, geostatistics and kriging, vegetation indices from imagery |
+| **Machine learning** | CNNs for plant disease detection, Random Forest, clustering, PCA, factor analysis, GLM, Genetic Programming |
+| **Reproducible science** | R, Python, Quarto/R Markdown, Git and GitHub, GitHub Actions, Zenodo |
+
+## Education
+
+::: {.timeline}
+::: {.item}
+**PhD in Statistics and Agricultural Experimentation** · Universidade de São Paulo (ESALQ/USP)\
+[2025 – present · CAPES scholarship]{.when}
+:::
+::: {.item}
+**MSc in Genetics and Plant Breeding** · Universidade Federal de Lavras (UFLA)\
+[2022 – 2024 · Dissertation on adaptability and stability of wheat cultivars in Minas Gerais]{.when}
+:::
+::: {.item}
+**MBA in Data Science and Analytics** · Universidade de São Paulo (USP)\
+[2020 – 2022 · Final project: Tahiti lemon price forecasting]{.when}
+:::
+::: {.item}
+**Agronomic Engineering** · Universidad Nacional de Colombia\
+[2013 – 2020]{.when}
+:::
+:::
+
+## Languages
+
+Spanish (native) · Portuguese · English
+
+## Contact
+
+The best way to reach me is by [email](mailto:raruizc@usp.br) or [LinkedIn](https://www.linkedin.com/in/ricardo-ruiz-cardozo/). My code is on [GitHub](https://github.com/raruizc) and my publications are on [ORCID](https://orcid.org/0009-0003-9162-8396).

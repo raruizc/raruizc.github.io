@@ -1,0 +1,14 @@
+---
+title: "Projects"
+subtitle: "Statistics, genetics and machine learning applied to real agricultural data. Every project has open code."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "order"
+  categories: false
+  fields: [image, title, description, categories]
+  image-height: 180px
+---
+
+Course projects for LCF 5900 are on the [Open Science](../open-science.qmd) page.

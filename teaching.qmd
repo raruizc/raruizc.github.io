@@ -1,0 +1,16 @@
+---
+title: "Teaching"
+---
+
+I am a **biostatistics teaching assistant** at ESALQ/USP. <!-- TODO: confirm course name, code and semester -->
+I enjoy explaining statistics with real agricultural data, and I share course materials openly so students can rerun every example.
+
+## Course materials (R)
+
+**Analysis of Experiments (UFLA)**\
+R scripts and exercise lists (9 problem sets) on experimental design and analysis of variance.\
+[[]{.bi .bi-github} GitHub](https://github.com/raruizc/ExperimentAnalysis){.btn-pill}
+
+**Spatial Analysis (UFLA)**\
+Scripts, data and exercises in three parts: areal data, point patterns and geostatistics.\
+[[]{.bi .bi-github} GitHub](https://github.com/raruizc/SpatialAnalysisCourse){.btn-pill}

@@ -1,0 +1,59 @@
+<script>
+// Scroll-reveal: elements fade and rise into place the first time they enter the screen.
+// Skipped entirely for visitors who ask their system for reduced motion.
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (!('IntersectionObserver' in window)) return;
+  // Small blocks only: a very tall element would never reach the visibility threshold
+  var selector = [
+    'main h2', 'main figure', 'main table', 'main div.sourceCode', '.cell-output-display',
+    '.highlight', '.dd', '.quarto-grid-item', '.key-result', '.proof-step',
+    '.timeline .item', '.callout', '.stat'
+  ].join(',');
+  var items = document.querySelectorAll(selector);
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); }
+    });
+  }, { rootMargin: '0px 0px -6% 0px', threshold: 0 });
+  // Safety net: if the observer never fires (old browser, print, screenshot tools),
+  // show everything after a few seconds so no content stays hidden.
+  setTimeout(function () {
+    document.querySelectorAll('.reveal:not(.in-view)').forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight) el.classList.add('in-view');
+    });
+  }, 2500);
+  window.addEventListener('beforeprint', function () {
+    document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in-view'); });
+  });
+
+  items.forEach(function (el, i) {
+    if (el.closest('.reveal')) return;   // avoid nesting (e.g. a table inside a callout)
+    el.classList.add('reveal');
+    // Stagger siblings in a row (cards, highlights) for a cascading effect
+    var idx = Array.prototype.indexOf.call(el.parentNode.children, el);
+    el.style.transitionDelay = Math.min(idx, 6) * 70 + 'ms';
+    io.observe(el);
+  });
+
+  // Count-up for numbers marked with data-count (e.g. <span class="stat-num" data-count="0.612">)
+  var nums = document.querySelectorAll('[data-count]');
+  var io2 = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      io2.unobserve(e.target);
+      var el = e.target, end = parseFloat(el.dataset.count), dec = (el.dataset.count.split('.')[1] || '').length;
+      var pre = el.dataset.prefix || '', suf = el.dataset.suffix || '', t0 = null;
+      function step(t) {
+        if (!t0) t0 = t;
+        var p = Math.min((t - t0) / 1100, 1), v = end * (1 - Math.pow(1 - p, 3));
+        el.textContent = pre + v.toFixed(dec) + suf;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }, { threshold: 0.4 });
+  nums.forEach(function (n) { io2.observe(n); });
+})();
+</script>

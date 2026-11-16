@@ -1,0 +1,41 @@
+---
+title: "Open Science"
+subtitle: "LCF 5900 · Reproducible and open processing of scientific data (ESALQ/USP, 2026)"
+---
+
+The LCF 5900 course introduces open and accessible science: tools, software and databases that let other researchers access and reproduce your work. For the course I built three fully reproducible projects. Each one has open data, open code, a rendered report and a version you can **run in the browser** with Posit Cloud or Google Colab, with no installation needed.
+
+[[]{.bi .bi-mortarboard} Course page (DokuWiki)](https://guarani.esalq.usp.br/doku.php?id=opensci:2026:alunos:ricardo){.btn-pill .solid}
+
+## Climate of Piracicaba and ENSO
+
+How do long-term seasonal trends in temperature range and rainfall behave in Piracicaba since 1950, and how do El Niño / La Niña anomalies affect extreme local weather, especially summer rainfall? The workflow covers data extraction, exploratory analysis, Kruskal-Wallis tests, Spearman correlation, and forecasting of the Oceanic Niño Index (ONI) with ARIMA and Prophet.
+
+[[]{.bi .bi-github} GitHub](https://github.com/raruizc/ClimateTimeSeriesPiracicaba){.btn-pill}
+[[]{.bi .bi-database} Data](https://github.com/raruizc/ClimateTimeSeriesPiracicaba/blob/main/DadosClima_Piracicaba.xlsx){.btn-pill}
+[[]{.bi .bi-file-earmark-pdf} Report (PDF)](https://github.com/raruizc/ClimateTimeSeriesPiracicaba/blob/main/Report_Climate.pdf){.btn-pill}
+[[]{.bi .bi-cloud-arrow-up} Run on Posit Cloud](https://posit.cloud/content/12513350){.btn-pill}
+[[]{.bi .bi-journal-code} Colab notebook](https://colab.research.google.com/drive/1BapT3WR7ezMQINV8PPLQY8NuPz2UR_jF?usp=sharing){.btn-pill}
+[[]{.bi .bi-mortarboard} Course exercise](https://guarani.esalq.usp.br/doku.php?id=opensci:2026:alunos:ricardo:ricardoClima:do_1){.btn-pill}
+
+## MAGIC common bean: reproducing a published analysis
+
+Can a published genetics study be reproduced from its open data alone? I re-created the phenotypic and genotypic analyses of a MAGIC (Multiparent Advanced Generation Intercross) population of common bean (*Phaseolus vulgaris* L.) evaluated under drought, to show in practice that scientific reproducibility is feasible.
+
+[[]{.bi .bi-github} GitHub](https://github.com/raruizc/LCF5900-MAGIC-Bean-Genetics){.btn-pill}
+[[]{.bi .bi-database} Data](https://github.com/raruizc/LCF5900-MAGIC-Bean-Genetics/tree/main/data){.btn-pill}
+[[]{.bi .bi-file-earmark-pdf} Report (PDF)](https://github.com/raruizc/LCF5900-MAGIC-Bean-Genetics/blob/main/report/MAGIC_Report.pdf){.btn-pill}
+[[]{.bi .bi-cloud-arrow-up} Run on Posit Cloud](https://posit.cloud/content/12513350){.btn-pill}
+[[]{.bi .bi-journal-code} Colab notebook](https://colab.research.google.com/drive/1tfdtUlOlEbIKzeTGc3XG031kWnCbNPAo?usp=sharing){.btn-pill}
+[[]{.bi .bi-mortarboard} Course exercise](https://guarani.esalq.usp.br/doku.php?id=opensci:2026:alunos:ricardo:ricardoRepositorio:do_2){.btn-pill}
+
+## Wheat breeding with Bayesian models and information theory
+
+A reproducible pipeline for G×E in rainfed wheat trials. Bayesian hierarchical mixed models handle a 4×4 lattice design and missing data. Mutual information maps non-linear environmental networks and supports multi-trait selection, and Shannon entropy measures phenotypic stability as informational predictability. The result turns raw trial data into decision-support indicators without arbitrary index weights.
+
+[[]{.bi .bi-github} GitHub](https://github.com/raruizc/LCF5900_Wheat-Bayesian-Infotheory_Breeding){.btn-pill}
+[[]{.bi .bi-database} Data](https://github.com/raruizc/LCF5900_Wheat-Bayesian-Infotheory_Breeding/blob/main/Data.xlsx){.btn-pill}
+[[]{.bi .bi-file-earmark-pdf} Report (PDF)](https://github.com/raruizc/LCF5900_Wheat-Bayesian-Infotheory_Breeding/blob/main/Mutual-Information-for-Plant-Breeding.pdf){.btn-pill}
+[[]{.bi .bi-cloud-arrow-up} Run on Posit Cloud](https://posit.cloud/content/12513350){.btn-pill}
+[[]{.bi .bi-journal-code} Colab notebook](https://colab.research.google.com/drive/1vnI_jzJKxP5KnniLPtvay8tBCcECSJkD?usp=sharing){.btn-pill}
+[[]{.bi .bi-mortarboard} Course exercise](https://guarani.esalq.usp.br/doku.php?id=opensci:2026:alunos:ricardo:ricardoProprio:do_3){.btn-pill}

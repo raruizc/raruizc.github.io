@@ -1,0 +1,13 @@
+/.quarto/
+/_site/
+.Rhistory
+.Rproj.user/
+.DS_Store
+
+**/*.quarto_ipynb
+
+# Private / local files: not published
+CV_*.pdf
+CV_*.docx
+*.docx
+.claude/
