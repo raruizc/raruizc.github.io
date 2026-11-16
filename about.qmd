@@ -2,7 +2,7 @@
 title: "About me"
 ---
 
-I am an Agricultural Engineer from Colombia, with an MBA in Data Science and Analytics (USP), a Master's degree in Genetics and Plant Breeding (UFLA) and currently a PhD student in **Statistics and Agricultural Experimentation** at ESALQ/USP, with a CAPES scholarship.
+I am an Agricultural Engineer from Colombia, with an MBA in Data Science and Analytics (USP) and a Master's degree in Genetics and Plant Breeding (UFLA). I am currently a PhD student in **Statistics and Agricultural Experimentation** at ESALQ/USP, with a CAPES scholarship, and I am also taking an **MBA in Agribusiness** (ESALQ/USP) and a **specialization in Artificial and Computational Intelligence** (UFV).
 
 My research sits where agriculture, statistics and artificial intelligence meet. In my PhD I am using **Genetic Programming** to build new agricultural indices from experimental data. I also develop methods that use **information theory** (mutual information and Shannon entropy) to make genomic selection and genotype-by-environment (G×E) analysis more interpretable.
 
@@ -25,6 +25,14 @@ I have supported a wheat breeding program in subtropical conditions, analysed ti
 ::: {.item}
 **PhD in Statistics and Agricultural Experimentation** · Universidade de São Paulo (ESALQ/USP)\
 [2025 – present · CAPES scholarship]{.when}
+:::
+::: {.item}
+**MBA in Agribusiness** · Universidade de São Paulo (ESALQ/USP)\
+[2026 – present]{.when}
+:::
+::: {.item}
+**Specialization in Artificial and Computational Intelligence** · Universidade Federal de Viçosa (UFV)\
+[2026 – present]{.when}
 :::
 ::: {.item}
 **MSc in Genetics and Plant Breeding** · Universidade Federal de Lavras (UFLA)\

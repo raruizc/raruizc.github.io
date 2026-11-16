@@ -37,8 +37,8 @@ I am a PhD candidate in Statistics and Agricultural Experimentation at ESALQ/USP
 [Published in 2025 on wheat adaptability and field-trial design]{.small}
 :::
 ::: {.highlight}
-[PhD · MSc · MBA]{.big}
-[Statistics (ESALQ/USP), Plant Breeding (UFLA), Data Science (USP)]{.small}
+[PhD · MSc · 2 MBAs]{.big}
+[Statistics (ESALQ/USP), Plant Breeding (UFLA), Data Science (USP), Agribusiness (ESALQ/USP), AI specialization (UFV)]{.small}
 :::
 ::: {.highlight}
 [ES · PT · EN]{.big}
