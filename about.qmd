@@ -21,6 +21,12 @@ I have supported a wheat breeding program in subtropical conditions, analysed ti
 
 ## Education
 
+::: {.affiliations}
+[![](images/esalqlogo.png){fig-alt="ESALQ – Luiz de Queiroz College of Agriculture, University of São Paulo"}](https://www.esalq.usp.br){.aff title="ESALQ – University of São Paulo"}
+[![](images/ppgeea-logo.png){fig-alt="PPGEEA – Graduate Program in Statistics and Agricultural Experimentation"}](https://www.esalq.usp.br/pg/programas/estatistica/){.aff title="PPGEEA – Graduate Program in Statistics and Agricultural Experimentation"}
+[Luiz de Queiroz College of Agriculture (**ESALQ**), University of São Paulo · Graduate Program in Statistics and Agricultural Experimentation (**PPGEEA**)]{.aff-text}
+:::
+
 ::: {.timeline}
 ::: {.item}
 **PhD in Statistics and Agricultural Experimentation** · Universidade de São Paulo (ESALQ/USP)\

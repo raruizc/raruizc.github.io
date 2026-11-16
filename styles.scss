@@ -195,3 +195,19 @@ a.dd {
   .deep-dives > p > a.dd { grid-column: span 2; }
   .deep-dives > p > a.dd:nth-child(n+4) { grid-column: span 3; }
 }
+
+// ================= Affiliation logos =================
+// Logos sit on a white chip so the black ESALQ lettering stays readable in dark mode.
+.affiliations > p, .affiliations {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.9rem; margin: 1.2rem 0 0.4rem;
+}
+.affiliations > p { margin: 0; }
+a.aff {
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 96px; padding: 8px 12px; border-radius: 12px; background: #fff;
+  border: 1px solid rgba($primary, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  img { height: 100%; width: auto; max-width: 110px; object-fit: contain; margin: 0; }
+  &:hover { transform: translateY(-3px); border-color: $primary; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10); }
+}
+.aff-text { flex: 1 1 220px; font-size: 0.9rem; opacity: 0.85; line-height: 1.4; }

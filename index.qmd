@@ -37,7 +37,7 @@ I am a PhD candidate in Statistics and Agricultural Experimentation at ESALQ/USP
 [Published in 2025 on wheat adaptability and field-trial design]{.small}
 :::
 ::: {.highlight}
-[PhD · MSc · 2 MBAs]{.big}
+[PhD · MSc · MBA]{.big}
 [Statistics (ESALQ/USP), Plant Breeding (UFLA), Data Science (USP), Agribusiness (ESALQ/USP), AI specialization (UFV)]{.small}
 :::
 ::: {.highlight}
@@ -47,6 +47,12 @@ I am a PhD candidate in Statistics and Agricultural Experimentation at ESALQ/USP
 :::
 
 [[]{.bi .bi-grid-3x3-gap} See my projects](projects/index.qmd){.btn-pill .solid} [[]{.bi .bi-journal-text} Research](research.qmd){.btn-pill} [[]{.bi .bi-person} About me](about.qmd){.btn-pill}
+
+::: {.affiliations}
+[![](images/esalqlogo.png){fig-alt="ESALQ – Luiz de Queiroz College of Agriculture, University of São Paulo"}](https://www.esalq.usp.br){.aff title="ESALQ – University of São Paulo"}
+[![](images/ppgeea-logo.png){fig-alt="PPGEEA – Graduate Program in Statistics and Agricultural Experimentation"}](https://www.esalq.usp.br/pg/programas/estatistica/){.aff title="PPGEEA – Graduate Program in Statistics and Agricultural Experimentation"}
+[PhD candidate at the **Graduate Program in Statistics and Agricultural Experimentation (PPGEEA)**, ESALQ, University of São Paulo]{.aff-text}
+:::
 
 ### Deep dives
 
